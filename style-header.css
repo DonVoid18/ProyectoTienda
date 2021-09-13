@@ -1,6 +1,18 @@
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .contenedor-navegacion nav ul li{
     transition: 0.9s ease-in;
 }
 .contenedor-navegacion nav ul li:hover{
     transform: rotateX(150deg);
+}
+.contenedor-navegacion nav ul li a{
+    transition: 0.5s ease-in;
+}
+.contenedor-navegacion nav ul li a:hover{
+    color: rgb(32,26,138);
+}
+.contenedor-navegacion nav ul{
+    background-color: #5350e6;
 }

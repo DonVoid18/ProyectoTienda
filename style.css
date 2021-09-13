@@ -14,3 +14,9 @@
 .contenedor-navegacion nav ul li a{
     color: white;
 }
+body{
+    background-color: azure;
+}
+main{
+    padding: 10%;
+}
